@@ -40,7 +40,7 @@
 		<input type="text"  placeholder ="New From "  ng-model="current.newForm" required>
 		<input type="text"   placeholder ="Used From"  ng-model="current.usedFrom" required> 
 		<button type="button" class="button" ng-click = "$ctrl.addItem(current)" ng-hide="$ctrl.editOpen" ng-disabled="portalForm.$invalid" ng-class="{'diabled-class':portalForm.$invalid,'enable-class':!portalForm.$invalid}">Add New Rows</button>
-		<button type="button" class="button"  ng-click = "$ctrl.save(current)" ng-hide="$ctrl.addOpen">Update Details</button>
+		<button type="button" class="button"  ng-click = "$ctrl.save(current)" ng-hide="$ctrl.addOpen">Save  Details</button>
 
 	</form>
 </footer>

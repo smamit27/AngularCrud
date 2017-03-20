@@ -20,6 +20,7 @@ angular.module("portalApp").component("portalAppComp",{
     this.remove = (data) =>{
         let index = this.getPortalData.indexOf(data);
         this.getPortalData.splice(index,1);
+        
         if( self.getPortalData.length == 0){
             this.zeroLength = true;
              $scope.current = {};
